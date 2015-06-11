@@ -1,0 +1,30 @@
+package:
+  name: pymc
+  version: 2.3.4
+
+source:
+  fn:  pymc-2.3.4.tar.gz
+  url: https://github.com/pymc-devs/pymc/archive/2.3.4.tar.gz
+  md5: b4e02abc30717fd0d565713c252f8b78
+
+requirements:
+  build:
+    - python
+    - numpy
+
+  run:
+    - python
+    - numpy
+    - matplotlib
+    - scipy
+
+test:
+  imports:
+    - pymc
+
+  requires:
+    - nose
+
+about:
+  home: https://github.com/pymc-devs/pymc
+  license: Academic Free License (http://opensource.org/licenses/AFL-3.0)

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{a98664ac-207f-4440-bbd2-d6b62f04cbbe}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>setup.py</StartupFile>
+    <SearchPath>demo\</SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="demo\ducks\labels.txt" />
+    <Content Include="LICENSE.TXT" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="build\lib.win-amd64-2.7\cubam\actions.py" />
+    <Compile Include="build\lib.win-amd64-2.7\cubam\annmodel.py" />
+    <Compile Include="build\lib.win-amd64-2.7\cubam\Binary1dSignalModel.py" />
+    <Compile Include="build\lib.win-amd64-2.7\cubam\BinaryBiasModel.py" />
+    <Compile Include="build\lib.win-amd64-2.7\cubam\BinaryModel.py" />
+    <Compile Include="build\lib.win-amd64-2.7\cubam\BinaryNdSignalModel.py" />
+    <Compile Include="build\lib.win-amd64-2.7\cubam\MajorityModel.py" />
+    <Compile Include="build\lib.win-amd64-2.7\cubam\Model.py" />
+    <Compile Include="build\lib.win-amd64-2.7\cubam\utils.py" />
+    <Compile Include="build\lib.win-amd64-2.7\cubam\__init__.py" />
+    <Compile Include="cubam\actions.py" />
+    <Compile Include="cubam\annmodel.py" />
+    <Compile Include="cubam\Binary1dSignalModel.py" />
+    <Compile Include="cubam\BinaryBiasModel.py" />
+    <Compile Include="cubam\BinaryModel.py" />
+    <Compile Include="cubam\BinaryNdSignalModel.py" />
+    <Compile Include="cubam\MajorityModel.py" />
+    <Compile Include="cubam\Model.py" />
+    <Compile Include="cubam\utils.py" />
+    <Compile Include="cubam\__init__.py" />
+    <Compile Include="demo\binary-signal-demo.py" />
+    <Compile Include="demo\bluebirds.py" />
+    <Compile Include="demo\cubam\cubam\cubam.py" />
+    <Compile Include="demo\cubam\cubam\setup.py" />
+    <Compile Include="demo\ducks.py" />
+    <Compile Include="demo\synthetic.py" />
+    <Compile Include="setup.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="build\" />
+    <Folder Include="build\lib.win-amd64-2.7\" />
+    <Folder Include="build\lib.win-amd64-2.7\cubam" />
+    <Folder Include="cubam" />
+    <Folder Include="demo" />
+    <Folder Include="demo\cubam\" />
+    <Folder Include="demo\cubam\cubam" />
+    <Folder Include="demo\ducks" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
