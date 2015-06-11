@@ -1,0 +1,73 @@
+\relax 
+\citation{gelman}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{2}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{cha:introduction}{{1}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}Terminology, notation and calling conventions}{2}}
+\citation{OOP_review}
+\citation{silvert_OOP}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}The basic objects and normally-distributed observations}{4}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{cha:basics}{{2}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Mean functions}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Covariance functions}{4}}
+\newlabel{sec:cov}{{2.2}{4}}
+\citation{sampson}
+\citation{pachische}
+\citation{me_SR}
+\citation{incompchol}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Covariances' Cholesky method}{5}}
+\citation{golub}
+\citation{Linpack}
+\citation{predictivechol}
+\citation{Seeger}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Covariances' Cholesky continuation method}{6}}
+\citation{spanos}
+\citation{convolution}
+\citation{micula}
+\citation{lang_pspline}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}Basis covariances}{7}}
+\newlabel{sec:basis}{{2.2.3}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Normally-distributed observations}{7}}
+\newlabel{sec:obs}{{2.3}{7}}
+\newlabel{regprior}{{2.1}{7}}
+\citation{jensen}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Covariances' observe methods}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Basis covariances' observe methods}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Means' observe methods}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.4}The observe function}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.5}Cross-validation}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Gaussian process realizations}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}GP realizations with basis covariances}{11}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Incorporating Gaussian processes in larger probability models}{12}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{sec:PyMC}{{3}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Random variables}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces A cartoon of the relationship between PyMC's basic objects and their attributes. Step methods are not assigned to deterministic variables (instances of the \texttt  {Deterministic} class) or to random variables that have been observed (instances of the \texttt  {Stochastic} class that are flagged as data). Arrows point from parent to child.}}{13}}
+\newlabel{fig:pymccartoon}{{3.1}{13}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Deterministic variables}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces The action of a Metropolis step method when its \texttt  {step} method is called. First, the variable's log-probability and the log-probabilities of its children are recorded and summed. Then, the variable's value is replaced with a proposed value. Then, the variable's log-probability and the log-probabilities of its children are queried and summed with the proposed value in place. If the jump is accepted, the old value is forgotten; if the jump is rejected, the proposed value is replaced with the old value and forgotten.}}{15}}
+\newlabel{metropoliscartoon}{{3.2}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Step methods}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}GP realization-valued random variables}{16}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Step methods for realization-valued random variables and their parents}{16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}A Metropolis step method for realization-valued RV's}{16}}
+\citation{gilks}
+\citation{jensen}
+\citation{Banerjee}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}Metropolis step methods for parents of realization-valued RV's}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.3}Choosing a mesh}{17}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}Gibbs step methods for realization-valued random variables}{17}}
+\newlabel{eqn:simple_GP_model}{{3.1}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Several possible proposals of $\mathaccent "707E\relax f$ (curves) given proposed values for $f(m)$ (heavy dots) with no mesh (\textbf  {top}), a sparse mesh (\textbf  {middle}), and a dense mesh (\textbf  {bottom}). Proposal distributions' one-standard-deviation envelopes are shown as shaded regions, with means shown as broken lines. With no mesh, $\mathaccent "707E\relax f$ is being proposed from its prior and the acceptance rate will be very low. A denser mesh permits a high degree of control over $\mathaccent "707E\relax f$, but computing the log-probability will be more expensive.}}{18}}
+\newlabel{fig:meshpropose}{{3.3}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces The output of an MCMC run for the model (3.1\hbox {}) using the \texttt  {GPNormal} (\textbf  {top}) and \texttt  {GPMetropolis} (\textbf  {bottom}) step methods. Several samples are shown in the \textbf  {left} panels, and the dynamic traces of the \texttt  {GP}'s evaluation at the midpoint of the interval are shown in the \textbf  {right} panels. Both the Metropolis and Gibbs samples' jumping distribution is modulated by the value of the prior parameters, which are updated by \texttt  {GPParentMetropolis} step methods.}}{19}}
+\newlabel{fig:MCMCOutput}{{3.4}{19}}
+\bibstyle{plain}
+\bibdata{Anand_Patil_Thesis}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Summary}{20}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}

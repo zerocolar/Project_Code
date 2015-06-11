@@ -1,0 +1,370 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.18)  18 MAR 2015 15:55
+entering extended mode
+**GPAlgorithms.tex
+(C:\Users\shaobo\Desktop\pymc-master\pymc\gp\Docs\algorithm\GPAlgorithms.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfsync\pdfsync.sty"
+Package: pdfsync 2008/01/26 v1.1
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\preprint\fullpage.sty"
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip43
+)
+(C:\Users\shaobo\Desktop\pymc-master\pymc\gp\Docs\algorithm\GPAlgorithms.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+Configuring pdfsync
+\PDFSYNC@ut=\write3
+\PDFSYNCf@li@=\count89
+\PDFSYNC@rder=\count90
+**** pdfsync.sty: Synchronizing at \everypar
+\PDFSYNCeveryp@r=\toks16
+**** pdfsync.sty: Synchronizing at \everymath
+\PDFSYNCeverym@th=\toks17
+**** pdfsync.sty: Synchronizing at \everyhbox
+\PDFSYNCeveryhb@x=\toks18
+**** pdfsync.sty: Synchronizing at \everyvbox
+\PDFSYNCeveryvb@x=\toks19
+**** pdfsync.sty: started
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count91
+\scratchdimen=\dimen107
+\scratchbox=\box26
+\nofMPsegments=\count92
+\nofMParguments=\count93
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count94
+\MPscratchDim=\dimen108
+\MPnumerator=\count95
+\makeMPintoPDFobject=\count96
+\everyMPtoPDFconversion=\toks21
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(C:\Users\shaobo\Desktop\pymc-master\pymc\gp\Docs\algorithm\GPAlgorithms.toc)
+\tf@toc=\write4
+
+[1
+
+]
+Chapter 1.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
+
+
+LaTeX Warning: Citation `gelman' on page 2 undefined on input line 23.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+\OT1/cmr/m/n/10 Carlo (MCMC) [[]] pack-age along the lines of Bugs
+ []
+
+[2
+
+]
+
+LaTeX Warning: Citation `OOP_review' on page 3 undefined on input line 56.
+
+
+LaTeX Warning: Citation `silvert_OOP' on page 3 undefined on input line 56.
+
+[3]
+Chapter 2.
+[4
+
+]
+
+LaTeX Warning: Citation `sampson' on page 5 undefined on input line 147.
+
+
+LaTeX Warning: Citation `pachische' on page 5 undefined on input line 147.
+
+
+LaTeX Warning: Citation `me_SR' on page 5 undefined on input line 147.
+
+
+LaTeX Warning: Citation `incompchol' on page 5 undefined on input line 177.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
+\OT1/cmr/m/n/10 al-go-rithm im-ple-mented in the MAT-LAB pack-age `chol[]incomp
+lete'
+ []
+
+[5]
+
+LaTeX Warning: Citation `golub' on page 6 undefined on input line 206.
+
+
+LaTeX Warning: Citation `Linpack' on page 6 undefined on input line 206.
+
+
+LaTeX Warning: Citation `predictivechol' on page 6 undefined on input line 206.
+
+
+
+LaTeX Warning: Citation `Seeger' on page 6 undefined on input line 211.
+
+
+Overfull \hbox (5.39525pt too wide) in paragraph at lines 214--216
+[][]\OT1/cmr/m/n/10 It is fre-quently de-sir-able to com-pute an in-com-plete C
+holesky fac-tor for the co-vari-ance ma-trix $[][]\OML/cmm/m/it/10 C\OT1/cmr/m/
+n/10 (\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x; y\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10
+ ; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x; y\OMS/cmsy/m/n/10 g\OT1/cmr/m/n/10 ) +
+$
+ []
+
+[6]
+
+LaTeX Warning: Citation `spanos' on page 7 undefined on input line 266.
+
+
+LaTeX Warning: Citation `convolution' on page 7 undefined on input line 267.
+
+
+LaTeX Warning: Citation `micula' on page 7 undefined on input line 268.
+
+
+LaTeX Warning: Citation `lang_pspline' on page 7 undefined on input line 268.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 281.
+
+[7]
+
+LaTeX Warning: Citation `jensen' on page 8 undefined on input line 309.
+
+[8]
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 344.
+
+[9] [10] [11]
+Chapter 3.
+<figs/pymc_cartoon.pdf, id=55, 473.77pt x 356.33125pt>
+File: figs/pymc_cartoon.pdf Graphic file (type pdf)
+
+<use figs/pymc_cartoon.pdf>
+Package pdftex.def Info: figs/pymc_cartoon.pdf used on input line 457.
+(pdftex.def)             Requested size: 426.79134pt x 321.00507pt.
+ [12
+
+] [13 <C:/Users/shaobo/Desktop/pymc-master/pymc/gp/Docs/algorithm/figs/pymc_car
+toon.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 492
+.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 492.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 492.
+
+[14] <figs/sampmethod_cartoon.pdf, id=118, 1017.8025pt x 401.5pt>
+File: figs/sampmethod_cartoon.pdf Graphic file (type pdf)
+
+<use figs/sampmethod_cartoon.pdf>
+Package pdftex.def Info: figs/sampmethod_cartoon.pdf used on input line 524.
+(pdftex.def)             Requested size: 426.79134pt x 168.35928pt.
+ [15 <C:/Users/shaobo/Desktop/pymc-master/pymc/gp/Docs/algorithm/figs/sampmetho
+d_cartoon.pdf>]
+Overfull \hbox (4.08273pt too wide) in paragraph at lines 565--565
+[][][]\OT1/cmr/bx/n/14.4 Step meth-ods for realization-valued ran-dom vari-able
+s and their
+ []
+
+[16] <figs/nomeshpropose.pdf, id=201, 807.61722pt x 590.80722pt>
+File: figs/nomeshpropose.pdf Graphic file (type pdf)
+
+<use figs/nomeshpropose.pdf>
+Package pdftex.def Info: figs/nomeshpropose.pdf used on input line 601.
+(pdftex.def)             Requested size: 227.62204pt x 166.5157pt.
+
+<figs/lightmeshpropose.pdf, id=202, 807.61722pt x 590.80722pt>
+File: figs/lightmeshpropose.pdf Graphic file (type pdf)
+
+<use figs/lightmeshpropose.pdf>
+Package pdftex.def Info: figs/lightmeshpropose.pdf used on input line 602.
+(pdftex.def)             Requested size: 227.62204pt x 166.5157pt.
+
+<figs/densemeshpropose.pdf, id=203, 807.61722pt x 590.80722pt>
+File: figs/densemeshpropose.pdf Graphic file (type pdf)
+
+<use figs/densemeshpropose.pdf>
+Package pdftex.def Info: figs/densemeshpropose.pdf used on input line 603.
+(pdftex.def)             Requested size: 227.62204pt x 166.5157pt.
+
+
+LaTeX Warning: Citation `gilks' on page 17 undefined on input line 610.
+
+
+LaTeX Warning: Citation `jensen' on page 17 undefined on input line 610.
+
+
+LaTeX Warning: Citation `Banerjee' on page 17 undefined on input line 628.
+
+<figs/gibbsSamples.pdf, id=204, 807.61722pt x 590.80722pt>
+File: figs/gibbsSamples.pdf Graphic file (type pdf)
+
+<use figs/gibbsSamples.pdf>
+Package pdftex.def Info: figs/gibbsSamples.pdf used on input line 632.
+(pdftex.def)             Requested size: 341.43306pt x 249.77806pt.
+
+<figs/metroSamples.pdf, id=205, 807.61722pt x 590.80722pt>
+File: figs/metroSamples.pdf Graphic file (type pdf)
+
+<use figs/metroSamples.pdf>
+Package pdftex.def Info: figs/metroSamples.pdf used on input line 633.
+(pdftex.def)             Requested size: 341.43306pt x 249.77806pt.
+ [17] [18 <C:/Users/shaobo/Desktop/pymc-master/pymc/gp/Docs/algorithm/figs/nome
+shpropose.pdf> <C:/Users/shaobo/Desktop/pymc-master/pymc/gp/Docs/algorithm/figs
+/lightmeshpropose.pdf> <C:/Users/shaobo/Desktop/pymc-master/pymc/gp/Docs/algori
+thm/figs/densemeshpropose.pdf>] [19 <C:/Users/shaobo/Desktop/pymc-master/pymc/g
+p/Docs/algorithm/figs/gibbsSamples.pdf> <C:/Users/shaobo/Desktop/pymc-master/py
+mc/gp/Docs/algorithm/figs/metroSamples.pdf>]
+Chapter 4.
+(C:\Users\shaobo\Desktop\pymc-master\pymc\gp\Docs\algorithm\GPAlgorithms.bbl
+[20
+
+]
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [21
+
+]
+(C:\Users\shaobo\Desktop\pymc-master\pymc\gp\Docs\algorithm\GPAlgorithms.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1467 strings out of 493921
+ 20414 string characters out of 3147279
+ 74778 words of memory out of 3000000
+ 4750 multiletter control sequences out of 15000+200000
+ 13848 words of font info for 53 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 34i,22n,24p,712b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmtt10.pfb>
+Output written on GPAlgorithms.pdf (22 pages, 676496 bytes).
+PDF statistics:
+ 541 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+

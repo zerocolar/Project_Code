@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "cubam", "cubam\cubam.pyproj", "{C1021A5E-0C47-4ABE-8D61-FA4B990A0486}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DB36304D-AEA8-40CF-B0E9-3A2E1719E255}"
+	ProjectSection(SolutionItems) = preProject
+		..\binary-signal-demo.py = ..\binary-signal-demo.py
+		..\bluebirds.py = ..\bluebirds.py
+		..\ducks.py = ..\ducks.py
+		..\synthetic.py = ..\synthetic.py
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1021A5E-0C47-4ABE-8D61-FA4B990A0486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1021A5E-0C47-4ABE-8D61-FA4B990A0486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

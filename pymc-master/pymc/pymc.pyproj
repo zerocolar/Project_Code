@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{d1e21af2-85ae-4315-982a-0421cece8131}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>calc_utils.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="calc_utils.py" />
+    <Compile Include="CircularStochastic.py" />
+    <Compile Include="CommonDeterministics.py" />
+    <Compile Include="Container.py" />
+    <Compile Include="database\base.py" />
+    <Compile Include="database\hdf5.py" />
+    <Compile Include="database\hdf5ea.py" />
+    <Compile Include="database\no_trace.py" />
+    <Compile Include="database\pickle.py" />
+    <Compile Include="database\ram.py" />
+    <Compile Include="database\sqlite.py" />
+    <Compile Include="database\txt.py" />
+    <Compile Include="database\__init__.py" />
+    <Compile Include="datatypes.py" />
+    <Compile Include="decorators.py" />
+    <Compile Include="diagnostics.py" />
+    <Compile Include="distributions.py" />
+    <Compile Include="examples\custom_step.py" />
+    <Compile Include="examples\disaster_model.py" />
+    <Compile Include="examples\disaster_model_gof.py" />
+    <Compile Include="examples\disaster_model_linear.py" />
+    <Compile Include="examples\disaster_model_missing.py" />
+    <Compile Include="examples\disaster_model_null.py" />
+    <Compile Include="examples\gelman_bioassay.py" />
+    <Compile Include="examples\gp\basiscov.py" />
+    <Compile Include="examples\gp\cov.py" />
+    <Compile Include="examples\gp\covparams.py" />
+    <Compile Include="examples\gp\MCMC.py" />
+    <Compile Include="examples\gp\mean.py" />
+    <Compile Include="examples\gp\mesh_choice.py" />
+    <Compile Include="examples\gp\more_examples\Duffy\mcmc.py" />
+    <Compile Include="examples\gp\more_examples\Duffy\model.py" />
+    <Compile Include="examples\gp\more_examples\Geostats\getdata.py" />
+    <Compile Include="examples\gp\more_examples\Geostats\mcmc.py" />
+    <Compile Include="examples\gp\more_examples\Geostats\model.py" />
+    <Compile Include="examples\gp\more_examples\MKMsalmon\MCMC.py" />
+    <Compile Include="examples\gp\more_examples\MKMsalmon\regression.py" />
+    <Compile Include="examples\gp\more_examples\MKMsalmon\salmon.py" />
+    <Compile Include="examples\gp\more_examples\MKMsalmon\salmon_sampler.py" />
+    <Compile Include="examples\gp\observation.py" />
+    <Compile Include="examples\gp\PyMCmodel.py" />
+    <Compile Include="examples\gp\realizations.py" />
+    <Compile Include="examples\gp\__init__.py" />
+    <Compile Include="examples\melanoma.py" />
+    <Compile Include="examples\melanoma_data.py" />
+    <Compile Include="examples\weibull_fit.py" />
+    <Compile Include="examples\weibull_fit_gof.py" />
+    <Compile Include="examples\zip.py" />
+    <Compile Include="examples\__init__.py" />
+    <Compile Include="gp\BasisCovariance.py" />
+    <Compile Include="gp\Covariance.py" />
+    <Compile Include="gp\cov_funs\bases.py" />
+    <Compile Include="gp\cov_funs\brownian.py" />
+    <Compile Include="gp\cov_funs\cov_utils.py" />
+    <Compile Include="gp\cov_funs\nsmatern.py" />
+    <Compile Include="gp\cov_funs\wrapped_distances.py" />
+    <Compile Include="gp\cov_funs\__init__.py" />
+    <Compile Include="gp\FullRankCovariance.py" />
+    <Compile Include="gp\gpplots.py" />
+    <Compile Include="gp\GPutils.py" />
+    <Compile Include="gp\gp_submodel.py" />
+    <Compile Include="gp\Mean.py" />
+    <Compile Include="gp\NearlyFullRankCovariance.py" />
+    <Compile Include="gp\Realization.py" />
+    <Compile Include="gp\step_methods.py" />
+    <Compile Include="gp\__init__.py" />
+    <Compile Include="graph.py" />
+    <Compile Include="InstantiationDecorators.py" />
+    <Compile Include="Matplot.py" />
+    <Compile Include="MCMC.py" />
+    <Compile Include="Model.py" />
+    <Compile Include="Node.py" />
+    <Compile Include="NormalApproximation.py" />
+    <Compile Include="NumpyDeterministics.py" />
+    <Compile Include="progressbar.py" />
+    <Compile Include="PyMCObjects.py" />
+    <Compile Include="ScipyDistributions.py" />
+    <Compile Include="six.py" />
+    <Compile Include="StepMethods.py" />
+    <Compile Include="tests\objectmodel.py" />
+    <Compile Include="tests\test_adaptive.py" />
+    <Compile Include="tests\test_AM.py" />
+    <Compile Include="tests\test_basiscov.py" />
+    <Compile Include="tests\test_binary_step.py" />
+    <Compile Include="tests\test_container.py" />
+    <Compile Include="tests\test_convergence.py" />
+    <Compile Include="tests\test_cov.py" />
+    <Compile Include="tests\test_database.py" />
+    <Compile Include="tests\test_distributions.py" />
+    <Compile Include="tests\test_GP_MCMC.py" />
+    <Compile Include="tests\test_gradients.py" />
+    <Compile Include="tests\test_graph.py" />
+    <Compile Include="tests\test_instantiation.py" />
+    <Compile Include="tests\test_interactive.py" />
+    <Compile Include="tests\test_MCMCSampler.py" />
+    <Compile Include="tests\test_mean.py" />
+    <Compile Include="tests\test_missing.py" />
+    <Compile Include="tests\test_norm_approx.py" />
+    <Compile Include="tests\test_observation.py" />
+    <Compile Include="tests\test_realization.py" />
+    <Compile Include="tests\test_slice.py" />
+    <Compile Include="tests\test_special_methods.py" />
+    <Compile Include="tests\test_utils.py" />
+    <Compile Include="tests\__init__.py" />
+    <Compile Include="threadpool.py" />
+    <Compile Include="utils.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="database" />
+    <Folder Include="examples" />
+    <Folder Include="examples\gp" />
+    <Folder Include="examples\gp\more_examples\" />
+    <Folder Include="examples\gp\more_examples\Duffy" />
+    <Folder Include="examples\gp\more_examples\Geostats" />
+    <Folder Include="examples\gp\more_examples\MKMsalmon" />
+    <Folder Include="gp" />
+    <Folder Include="gp\cov_funs" />
+    <Folder Include="tests" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>

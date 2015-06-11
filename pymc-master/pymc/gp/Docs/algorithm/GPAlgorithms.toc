@@ -1,0 +1,27 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {1.1}Terminology, notation and calling conventions}{2}
+\contentsline {chapter}{\numberline {2}The basic objects and normally-distributed observations}{4}
+\contentsline {section}{\numberline {2.1}Mean functions}{4}
+\contentsline {section}{\numberline {2.2}Covariance functions}{4}
+\contentsline {subsection}{\numberline {2.2.1}Covariances' Cholesky method}{5}
+\contentsline {subsection}{\numberline {2.2.2}Covariances' Cholesky continuation method}{6}
+\contentsline {subsection}{\numberline {2.2.3}Basis covariances}{7}
+\contentsline {section}{\numberline {2.3}Normally-distributed observations}{7}
+\contentsline {subsection}{\numberline {2.3.1}Covariances' observe methods}{8}
+\contentsline {subsection}{\numberline {2.3.2}Basis covariances' observe methods}{9}
+\contentsline {subsection}{\numberline {2.3.3}Means' observe methods}{10}
+\contentsline {subsection}{\numberline {2.3.4}The observe function}{10}
+\contentsline {subsection}{\numberline {2.3.5}Cross-validation}{10}
+\contentsline {section}{\numberline {2.4}Gaussian process realizations}{10}
+\contentsline {subsection}{\numberline {2.4.1}GP realizations with basis covariances}{11}
+\contentsline {chapter}{\numberline {3}Incorporating Gaussian processes in larger probability models}{12}
+\contentsline {section}{\numberline {3.1}Random variables}{12}
+\contentsline {section}{\numberline {3.2}Deterministic variables}{14}
+\contentsline {section}{\numberline {3.3}Step methods}{15}
+\contentsline {section}{\numberline {3.4}GP realization-valued random variables}{16}
+\contentsline {section}{\numberline {3.5}Step methods for realization-valued random variables and their parents}{16}
+\contentsline {subsection}{\numberline {3.5.1}A Metropolis step method for realization-valued RV's}{16}
+\contentsline {subsection}{\numberline {3.5.2}Metropolis step methods for parents of realization-valued RV's}{17}
+\contentsline {subsection}{\numberline {3.5.3}Choosing a mesh}{17}
+\contentsline {section}{\numberline {3.6}Gibbs step methods for realization-valued random variables}{17}
+\contentsline {chapter}{\numberline {4}Summary}{20}
